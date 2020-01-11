@@ -25,7 +25,8 @@ B2BC101 will help to organize BMS file's objects especially for old BMS files
 **Caution**: B2BC101 has some bugs as deleting whole objects of some measures.
 I also highly recommend using [AnzuBMSDiff](http://yuinore.net/2015/12/difftool/) to check BMS file is sound.
 
-Use (44.1kHz) wave files as keysounds or it will not operate. Use oggdec
+Use (44.1kHz) wave files as keysounds or it will not operate. Use oggdec.
+
 If WavFileWarning occurs, please remove default metadata.
 
 #### **How to Use**
@@ -37,7 +38,7 @@ If WavFileWarning occurs, please remove default metadata.
   You can pre-write your pattern on 1P region before running this.
   The object pre-written on 1P region will not be affected.
 
-  Then, organize the objects which you want to use to 2P region
+  Then, organize the objects which you want to use to 2P region.
   2P lane number 1 (#XYZ21) has the highest priority, 
   while 2P lane number 7 (#XYZ27) has the lowest priority.
 
