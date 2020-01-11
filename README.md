@@ -1,6 +1,8 @@
-## **Dear 7key BMS Pattern Makers...**
+## **α-Gorila version -6.0.0**
 
-#### **α-Gorila version - 6.0.0**
+#### or AT7PM (temporary name)
+Will be named α-Gorila after version -5 (minus 5). 
+
 BMS Object Auto Placement Program
 
 Distirbuted as .py file. 
