@@ -1,7 +1,12 @@
-## **A Tribute to 7key Pattern Makers...**
+## **Dear 7key BMS Pattern Makers...**
 
-#### **AT7PM version - 7.0.0**
+#### **α-Gorila version - 6.0.0**
+BMS Object Auto Placement Program
 
+Distirbuted as .py file. 
+Please Install Anaconda Distribution to open and run Python file.
+
+#### **Download Sample BMS**
 Download Sample BMS 'Adam' by しらいし
 https://drive.google.com/uc?id=11NOb1JLxeh_3GpaLGnlxLTnVIYTW8k4m
 
@@ -16,7 +21,7 @@ B2BC101 will help to organize BMS file's objects especially for old BMS files
 **Caution**: B2BC101 has some bugs as deleting whole objects of some measures.
 I also highly recommend using [AnzuBMSDiff](http://yuinore.net/2015/12/difftool/) to check BMS file is sound.
 
-Use (44.1kHz) wave files as keysounds or it will not operate. Use oggcodec
+Use (44.1kHz) wave files as keysounds or it will not operate. Use oggdec
 If WavFileWarning occurs, please remove default metadata.
 
 #### **How to Use**
