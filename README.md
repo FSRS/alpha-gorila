@@ -4,6 +4,7 @@
 BMS Object Auto Placement Program
 
 Distirbuted as .py file. 
+
 Please Install Anaconda Distribution to open and run Python file.
 
 #### **Download Sample BMS**
@@ -13,11 +14,14 @@ https://drive.google.com/uc?id=11NOb1JLxeh_3GpaLGnlxLTnVIYTW8k4m
 (Unzip AT7PM.zip and download sample BMS and unzip at AT7PM folder.
 Thus, Adam should be a subfolder of AT7PM.
 Please unzip Adam.zip in Adam folder for sample bms and oggdec.)
+
 or
+
 Just download AT7PM_full.zip
 
 I highly recommend saving your BMS file using UBMSC before running this.
 B2BC101 will help to organize BMS file's objects especially for old BMS files
+
 **Caution**: B2BC101 has some bugs as deleting whole objects of some measures.
 I also highly recommend using [AnzuBMSDiff](http://yuinore.net/2015/12/difftool/) to check BMS file is sound.
 
