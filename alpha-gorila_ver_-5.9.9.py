@@ -2,11 +2,12 @@
 """
 Created on Sat Jan  4 22:10:09 2020
 
-A Tribute to 7key Pattern Makers...
-AT7PM version -6.0.0
+alpha-gorila version -5.9.9
+BMS object Auto placement programe
 
 @author: Discord LuvTek#0832 
-Korean manual file will be uploded soon.
+Korean manual file is available.
+https://docs.google.com/document/d/1r_q_SJpnbhI42PiVULwfMZMvB-yLf-iJAmsO5Xf8EqU/edit?usp=sharing
 
 ***Keysounds should be wave files or it will MALFUNCTION!!!***
 Does NOT support LN, #RANDOM and mines etc... Sorry for inconvinience.
@@ -441,9 +442,10 @@ class BMSData(object):
         #make density_list=[10.5, 2.3 , 4.7 ,...]
             #divide the # of object on 1P lane as its BPM
   
-        f_new= open(path.rpartition('\\')[0]+'\\'+"_keysounds_not_found.txt","w+")
-        f_new.write(errors)
-        f_new.close() 
+        if errors!='':
+            f_new= open(path.rpartition('\\')[0]+'\\'+"_keysounds_not_found.txt","w+")
+            f_new.write(errors)
+            f_new.close() 
 
     def writeBMS(self,op_1,op_2):
         lines_write=copy.deepcopy(self.lines)
@@ -479,8 +481,6 @@ class BMSData(object):
 
 t_i, m_i, t_t= 16, 24, 1
 MX_n, l_r = False, False
-erase_unused_nk_obj=True
-move_unused_2P_obj=False
     
 bms = BMSData(path)
 #get keysound_dict {'01':'foon.wav', '02':'sofa.wav', ...} 
