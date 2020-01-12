@@ -1,22 +1,34 @@
-## **A Tribute to 7key Pattern Makers...**
+## **α-Gorila version -6.0.0**
 
-#### **AT7PM version - 7.0.0**
+#### or AT7PM (temporary name)
+Will be named α-Gorila after version -5 (minus 5). 
 
+BMS Object Auto Placement Program
+
+Distirbuted as .py file. 
+
+Please Install Anaconda Distribution to open and run Python file.
+
+#### **Download Sample BMS**
 Download Sample BMS 'Adam' by しらいし
 https://drive.google.com/uc?id=11NOb1JLxeh_3GpaLGnlxLTnVIYTW8k4m
 
 (Unzip AT7PM.zip and download sample BMS and unzip at AT7PM folder.
 Thus, Adam should be a subfolder of AT7PM.
 Please unzip Adam.zip in Adam folder for sample bms and oggdec.)
+
 or
+
 Just download AT7PM_full.zip
 
 I highly recommend saving your BMS file using UBMSC before running this.
 B2BC101 will help to organize BMS file's objects especially for old BMS files
+
 **Caution**: B2BC101 has some bugs as deleting whole objects of some measures.
 I also highly recommend using [AnzuBMSDiff](http://yuinore.net/2015/12/difftool/) to check BMS file is sound.
 
-Use (44.1kHz) wave files as keysounds or it will not operate. Use oggcodec
+Use (44.1kHz) wave files as keysounds or it will not operate. Use oggdec.
+
 If WavFileWarning occurs, please remove default metadata.
 
 #### **How to Use**
@@ -28,7 +40,7 @@ If WavFileWarning occurs, please remove default metadata.
   You can pre-write your pattern on 1P region before running this.
   The object pre-written on 1P region will not be affected.
 
-  Then, organize the objects which you want to use to 2P region
+  Then, organize the objects which you want to use to 2P region.
   2P lane number 1 (#XYZ21) has the highest priority, 
   while 2P lane number 7 (#XYZ27) has the lowest priority.
 
