@@ -9,6 +9,7 @@ Distirbuted as .py file.
 
 Please Install Anaconda Distribution to open and run Python file.
 
+Korean Manual: https://docs.google.com/document/d/1r_q_SJpnbhI42PiVULwfMZMvB-yLf-iJAmsO5Xf8EqU/edit
 #### **Download Sample BMS**
 Download Sample BMS 'Adam' by しらいし
 https://drive.google.com/uc?id=11NOb1JLxeh_3GpaLGnlxLTnVIYTW8k4m
