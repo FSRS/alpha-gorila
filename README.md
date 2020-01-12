@@ -1,7 +1,7 @@
-## **α-Gorila version -6.0.0**
+## **α-Gorila version -5.9.9**
 
 #### or AT7PM (temporary name)
-Will be named α-Gorila after version -5 (minus 5). 
+Will be named α-Gorila after version -5 (minus 5), but not sample files?
 
 BMS Object Auto Placement Program
 
